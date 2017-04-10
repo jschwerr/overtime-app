@@ -28,4 +28,6 @@ group :development do
   gem 'spring'
 end
 
+gem 'devise', '~> 4.2'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'bcrypt-ruby', '3.1.5', :require => 'bcrypt'
